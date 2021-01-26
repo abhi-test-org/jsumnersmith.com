@@ -6,6 +6,10 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-plugin-functions",
+      options: { path: `${__dirname}/src/functions` },
+    },
+    {
       resolve: "gatsby-alias-imports",
       options: {
         components: "src/components",
